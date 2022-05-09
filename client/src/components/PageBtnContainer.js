@@ -7,7 +7,6 @@ const PageBtnContainer = () => {
 	const pages = Array.from({ length: numOfPages }, (_, index) => {
 		return index + 1;
 	});
-	// console.log(pages);
 
 	const prevPage = () => {
 		let newPage = page - 1;
@@ -16,6 +15,7 @@ const PageBtnContainer = () => {
 		}
 		changePage(newPage);
 	};
+
 	const nextPage = () => {
 		let newPage = page + 1;
 		if (newPage > numOfPages) {
@@ -23,6 +23,7 @@ const PageBtnContainer = () => {
 		}
 		changePage(newPage);
 	};
+
 	return (
 		<Wrapper>
 			<button className='prev-btn' onClick={prevPage}>

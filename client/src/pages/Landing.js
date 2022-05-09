@@ -16,7 +16,7 @@ const Landing = () => {
 						job <span>tracking</span> app
 					</h1>
 					<p>
-						Welcome to job tracker. In this application, you can keep a proper
+						Welcome to job tracker. In this application, you can keep proper
 						records and track your job applications. This application reduces
 						the stress of keeping files of applied jobs and makes your job
 						search record easier than you think.

@@ -26,8 +26,6 @@ const Navbar = () => {
 						onClick={() => setShowLogout(!showLogout)}
 					>
 						<FaUserCircle />
-						{/* {user.name} */}
-						{/* {user && user.name} */}
 						{user?.name}
 						<FaCaretDown />
 					</button>
