@@ -16,10 +16,10 @@ const Landing = () => {
 						job <span>tracking</span> app
 					</h1>
 					<p>
-						I'm baby pinterest raw denim waistcoat before they sold out salvia.
-						Snackwave raclette hoodie swag, organic ramps viral. Food truck
-						gochujang put a bird on it whatever selfies bespoke farm-to-table
-						taxidermy edison bulb actually lomo
+						Welcome to job tracker. In this application, you can keep a proper
+						records and track your job applications. This application reduces
+						the stress of keeping files of applied jobs and makes your job
+						search record easier than you think.
 					</p>
 					<Link to='/register' className='btn btn-hero'>
 						Login/Register
